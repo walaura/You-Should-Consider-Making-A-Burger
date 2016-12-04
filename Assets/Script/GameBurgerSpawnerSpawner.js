@@ -73,6 +73,9 @@ function Update() {
 		}
 	}
 	if(activeSpawner){
+
+		mainAudio.pitch = 1.0f + (activeSpawner.GetComponent.<GameBurgerSpawner>().height*1.0f/50.0f) - 0.2 + streak*1.0f/10;
+
 		uiScoreboard.text = 
 		(score + activeSpawner.GetComponent.<GameBurgerSpawner>().height * streak).ToString();
 		activeSpawner.transform.position.x = Mathf.SmoothDamp(
@@ -88,6 +91,12 @@ function Update() {
 		if(activeSpawner && activeSpawner.GetComponent.<GameBurgerSpawner>().lost == true) {
 			score += activeSpawner.GetComponent.<GameBurgerSpawner>().height * streak;
 			uiFinalScore.text = score+ ' POINTS';
+
+			var params = System.Collections.Generic.Dictionary.<System.String, System.Object>();
+
+			params.Add("score",score);
+			UnityEngine.Analytics.Analytics.CustomEvent("gameOver", params);
+
 			removeSpawner();
 			streak = 1;
 			score = 0;
@@ -127,8 +136,6 @@ function Update() {
 	else {
 		uiFinishable.enabled = false;
 	}
-
-	mainAudio.pitch = 1.0f + (activeSpawner.GetComponent.<GameBurgerSpawner>().height*1.0f/50.0f) - 0.2 + streak*1.0f/10;
 
 	if(streak < 2) {
 		uiStreakPanel.SetActive(false);
