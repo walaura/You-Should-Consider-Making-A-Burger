@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: 91da662b2f38b43b19d9b91b8b084a52
+timeCreated: 1480843835
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bottom_bun
+    100002: //RootNode
+    100004: Cheese
+    100006: Lettuce
+    100008: pasted__pCylinder1
+    100010: pasted__pCylinder3
+    100012: Patty
+    100014: pCylinder3
+    100016: Tomato
+    100018: Top_bun
+    100020: Bottom
+    100022: Top
+    400000: Bottom_bun
+    400002: //RootNode
+    400004: Cheese
+    400006: Lettuce
+    400008: pasted__pCylinder1
+    400010: pasted__pCylinder3
+    400012: Patty
+    400014: pCylinder3
+    400016: Tomato
+    400018: Top_bun
+    400020: Bottom
+    400022: Top
+    2300000: Bottom_bun
+    2300002: Cheese
+    2300004: Lettuce
+    2300006: pasted__pCylinder1
+    2300008: pasted__pCylinder3
+    2300010: Patty
+    2300012: pCylinder3
+    2300014: Bottom
+    2300016: Top
+    3300000: Bottom_bun
+    3300002: Cheese
+    3300004: Lettuce
+    3300006: pasted__pCylinder1
+    3300008: pasted__pCylinder3
+    3300010: Patty
+    3300012: pCylinder3
+    3300014: Bottom
+    3300016: Top
+    4300000: Bottom_bun
+    4300002: pasted__pCylinder1
+    4300004: Patty
+    4300006: Lettuce
+    4300008: Cheese
+    4300010: pCylinder3
+    4300012: pasted__pCylinder3
+    4300014: Bottom
+    4300016: Top
+    6400000: Bottom_bun
+    6400002: Cheese
+    6400004: Lettuce
+    6400006: pasted__pCylinder1
+    6400008: pasted__pCylinder3
+    6400010: Patty
+    6400012: pCylinder3
+    6400014: Bottom
+    6400016: Top
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 1
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
